@@ -18,9 +18,6 @@ allLis.forEach(function (e) {
   };
 });
 
-window.onscroll = function () {
-  console.log(scrollY);
-};
 const sm_media = window.matchMedia("(max-width: 767px)");
 if (sm_media.matches) {
   window.onscroll = function () {
